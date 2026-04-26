@@ -1,6 +1,11 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tn7aj7Yc)
 # 🤖 Multi-Agent Systems Lab: AutoGen vs. CrewAI
 
+## What I did
+I ran both the AutoGen and CrewAI demos. AutoGen felt more conversational because the agents responded to each other in a group chat and the manager selected speakers automatically. CrewAI felt more structured because each agent completed a specific task in order.
+
+I modified the ResearchAgent in the AutoGen demo to focus on AI-powered employee onboarding tools instead of AI interview platforms. This changed the rest of the conversation because the AnalysisAgent and BlueprintAgent built their ideas around onboarding instead of recruiting. This showed how one agent’s behavior can affect the whole multi-agent workflow.
+
 ## Basics and Fundamentals (!!Read this first!!)
 Before diving into the lab, please read through the [BASICS.md](BASICS.md) file to understand key concepts about multi-agent systems, architectures, and communication patterns. This foundational knowledge will help you grasp the implementations in this lab.
 

@@ -56,11 +56,11 @@ class GroupChatInterviewPlatform:
         # Research Agent - starts the conversation with market analysis
         self.research_agent = autogen.AssistantAgent(
             name="ResearchAgent",
-            system_message="""You are a market research analyst specializing in AI-powered recruitment technology.
+            system_message="""You are a market research analyst specializing in AI-powered employee onboarding tools.
 Your role in this group discussion is to START the conversation by providing competitive landscape analysis.
 
 Your responsibilities:
-- Analyze 3-4 major competitors in AI interview platforms (HireVue, Pymetrics, Codility, Interviewing.io)
+- Analyze 3-4 major competitors in AI interview platforms (Deel, Rippling, BambooHR, Gusto)
 - Summarize their key features, strengths, and weaknesses
 - Identify current market trends in AI-powered recruiting
 - Note unmet market needs and gaps
